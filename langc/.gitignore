@@ -1,0 +1,27 @@
+# Arquivos compilados
+*.so
+*.o
+*.a
+*.dylib
+*.dll
+
+# Executáveis
+*.out
+*.exe
+
+# Arquivos de debug
+*.dSYM/
+
+# Arquivos temporários
+*~
+*.swp
+*.swo
+.*.swp
+
+# Cache do editor
+.vscode/
+.idea/
+
+# Nix
+result
+result-*

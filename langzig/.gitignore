@@ -1,0 +1,36 @@
+# Zig build artifacts
+zig-out/
+zig-cache/
+.zig-cache/
+
+# Bibliotecas compiladas
+*.so
+*.o
+*.a
+*.dylib
+*.dll
+lib*.so
+
+# Executáveis
+*.out
+*.exe
+
+# Arquivos de debug
+*.dSYM/
+
+# Arquivos temporários
+*~
+*.swp
+*.swo
+.*.swp
+
+# Cache do editor
+.vscode/
+.idea/
+
+# Nix
+result
+result-*
+
+# Logs
+*.log

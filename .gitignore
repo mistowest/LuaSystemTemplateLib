@@ -1,0 +1,29 @@
+# Arquivos compilados globais
+*.so
+*.o
+*.a
+*.dylib
+*.dll
+
+# Zig
+zig-out/
+zig-cache/
+.zig-cache/
+
+# Editores
+.vscode/
+.idea/
+*~
+*.swp
+*.swo
+
+# Nix
+result
+result-*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
